@@ -579,6 +579,10 @@ input[type="button"] {
     width: 45%;
   }
 
+  .map-container { 
+    padding-bottom: 78.125%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -610,6 +614,10 @@ input[type="button"] {
   .content-wrapper {
     max-width: 960px;
   }
+
+  .map-container { 
+    padding-bottom: 62.5%;
+    }
 
   /* Hero */
   .hero-area h1 {
