@@ -365,6 +365,12 @@ input[type="button"] {
     left: 0; 
 }
 
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -394,6 +400,12 @@ input[type="button"] {
 
 .faq-content h4 {
   line-height: 24px;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
