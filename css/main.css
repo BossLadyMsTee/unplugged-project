@@ -185,21 +185,18 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 100%;
-}
+  }
 
 header nav ul li {
   font-size: 1.125em;
-  margin: 0 10px;
-}
+ }
 
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #202322;
-}
+ }
 
 footer p {
   margin: 0;
@@ -501,10 +498,12 @@ input[type="button"] {
 
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
   }
+
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
@@ -514,30 +513,44 @@ input[type="button"] {
     font-size: 1.5em;
     line-height: 1.25;
   }
+
   /* Header */
   header {
     padding: 33px 0;
   }
+
   header .content-wrapper {
     width: 100px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   header figure {
-    width: 30%;
+    width: auto;
+    margin-right: 20px;
+  }
+
+  header figure img { 
+    max-width: 200px; 
+    height: auto; 
   }
 
    header nav {
-    width: 20%;
+    width: auto;
   }
 
   header nav ul {
+    display: flex;
     justify-content: space-between;
+    list0style: none;
+    padding: 0;
   }
 
   header nav ul li {
-    margin: 0 15px;
+    margin-left: 20px;
   }
+
 
   .header-divider {
     display: none;
@@ -556,7 +569,7 @@ input[type="button"] {
   }
 
   /* Aside */
-  aside {
+  aside .content-wrapper{
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
@@ -675,6 +688,7 @@ input[type="button"] {
   .contact-content h4 {
     font-size: 1.5em;
   }
+
   /* FAQ Page - Tablet View */
   .faq .content-wrapper {
     justify-content: space-between;
@@ -698,6 +712,7 @@ input[type="button"] {
 
   .content-wrapper {
     max-width: 960px;
+    margin: 100px;
   }
 
   header {
@@ -782,13 +797,6 @@ input[type="button"] {
     font-size: 1.125em;
     line-height: 1;
   }
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
