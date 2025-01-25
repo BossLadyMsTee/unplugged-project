@@ -185,18 +185,18 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  }
+}
 
 header nav ul li {
   font-size: 1.125em;
- }
+}
 
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
- }
+}
 
 footer p {
   margin: 0;
@@ -371,7 +371,7 @@ input[type="button"] {
   background-color: #2a423a;
   display: flex;
   justify-content: center;
-  }
+}
 
 .contact-content p {
   margin: 0;
@@ -531,12 +531,12 @@ input[type="button"] {
     margin-right: 20px;
   }
 
-  header figure img { 
-    max-width: 200px; 
-    height: auto; 
+  header figure img {
+    max-width: 200px;
+    height: auto;
   }
 
-   header nav {
+  header nav {
     width: auto;
   }
 
@@ -550,7 +550,6 @@ input[type="button"] {
   header nav ul li {
     margin-left: 20px;
   }
-
 
   .header-divider {
     display: none;
@@ -569,7 +568,7 @@ input[type="button"] {
   }
 
   /* Aside */
-  aside .content-wrapper{
+  aside .content-wrapper {
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
@@ -688,11 +687,49 @@ input[type="button"] {
   .contact-content h4 {
     font-size: 1.5em;
   }
+  header .content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header figure {
+    width: auto;
+    margin-right: 20px;
+  }
+
+  header figure img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  header nav {
+    width: auto;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+
+  header nav ul li {
+    margin-left: 20px;
+  }
+
+  .header-divider {
+    display: none;
+  }
 
   /* FAQ Page - Tablet View */
   .faq .content-wrapper {
+    display: flex;
     justify-content: space-between;
+    align-items: flex-start;
   }
+
   .faq-content {
     flex-basis: 45%;
   }
@@ -704,6 +741,42 @@ input[type="button"] {
   .faq p {
     font-size: 0.875em;
     line-height: 1.125;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header figure {
+    width: auto;
+    margin-right: 20px;
+  }
+
+  header figure img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  header nav {
+    width: auto;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+
+  header nav ul li {
+    margin-left: 20px;
+  }
+
+  .header-divider {
+    display: none;
   }
 }
 
@@ -796,6 +869,41 @@ input[type="button"] {
   .faq p {
     font-size: 1.125em;
     line-height: 1;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header figure {
+    width: auto;
+    margin-right: 30px;
+  }
+
+  header figure img {
+    max-width: 250px;
+    height: auto;
+  }
+
+  header nav {
+    width: auto;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+
+  header nav ul li {
+    margin-left: 25px;
+  }
+  .header-divider {
+    display: none;
   }
 }
 
